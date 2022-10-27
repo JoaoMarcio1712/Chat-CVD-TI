@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+}
+
+@font-face{
+    font-family: 'bebas';
+    src: url('arantela/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+body{
+    background-image: url(../../arantes/imagens/city\(3\).gif);
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    height: 780px;
+    margin-top: -5px;
+    padding: 10px;
+}
+
+
+main{
+    display: block;
+    background-color: rgba(83, 83, 83, 0.87);
+    width: 750px;
+    height: 650px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: rgb(0, 174, 255);
+    margin: auto;
+    padding-top: 15px;
+    border-color: rgb(134, 134, 134);
+    border-style: solid;
+    text-indent: 15px;
+    border-width: 2px;
+    font-family: 'bebas';
+    
+}
+
+.pagina{
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 5px auto;
+    background-color: rgba(92, 93, 95, 0.411);
+    color: black;
+    text-align: center;
+    width: 500px;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+a{
+    display: ruby-base;
+    color: orange;
+    text-decoration: none;
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+a:hover{
+    background-color: black;
+}
+
+
+li{
+    color: cyan;
+}
+div.navegação{
+    display: inline-block;
+}
+strong{
+    font-size: 2em;
+}
+
+div.ani{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    transition: 1s;
+}
+
+div.ani:hover{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: 1s;
+}
+
+div.navegação > a:active{
+    background-color: white;
+}
+
+hr{
+    border-color: aqua;
+}
+iframe{
+    display: block;
+    width: 750px;
+    height: 815px;
+    margin: -835px 0px 0px 1000px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(134, 134, 134);
+    border-style: solid;
+}
+
+main h1{
+    text-align: center;
+}
+
+hr{
+    margin: 5px;
+}
+
+main p {
+    margin-left: 15px;
+    font-size: 1.3em;
+}
+
+
+
+
+/*@charset "utf-8";
+.btn{
+    background: #eb94d0;
+}
+body{
+    background-image:url('../../arantes/imagens/city\(3\).gif');
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    height: 750px;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 119px;
+}
+main{
+    background-color: rgba(78, 63, 80, 0.507);
+    width: 750px;
+    height: 700px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+div{margin: auto;
+max-width: 1200px;
+min-width: 490px;}
+p{color: #7d5ba6; font-size: larger; font-weight: 600;}
+strong{color: #2e2e2c;}
+a{color: #48acf0;}
+
+h1{
+    background-color:#324e6e7c;
+    border-radius: 5px;
+    height: auto;
+    width: 370px;
+    text-align: center;
+    margin: auto;
+
+}
+h2{ text-align: center;}
+h3{ text-align: center;}
+h4{ text-align: center;}
+h5{color: #15b097;}
+
+h6, ul, ol, li, dl, dd, dt{color: #48acf0;}
+b{color: #ffffff;}
+i{color: #2e2e2c;}
+em{color: #2e2e2c;}
+pre{color: rgb(92,69,10);}
+code{color: rgb(92, 69, 10);}
+blockquote{color: #f4f3ee;}
+
+div.Links{
+    display: inline;
+    
+}
+hr{
+    color:aqua
+}
+a{
+    display:ruby-base;
+    color:#48acf0;
+    background-color:#0e0c0d;
+    border-radius: 5px;
+    border-style:ridge;
+    border-color:#0e0c0d;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+a:Hover{
+    transition: 0.5s;
+    background-color: #7d5ba6;
+}
+
+.cabeçalho{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: ruby-base;
+    text-align: center; 
+    background-color: #eb94d0;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.chat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.imagem{
+    width: 40px; 
+    height: 40px;
+}
+
+main > div.chat > p{
+    margin: auto;
+}
+
+div{color: #48acf0, #f4f3ee, #7d5ba6, #61695a, #15b097}
+ #48acf0, #f4f3ee, #7d5ba6, #353d2f, #15b097 
+linear-gradient: rgb(37,37,37), rgb(97,96,96);*/
